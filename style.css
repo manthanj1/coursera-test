@@ -1,31 +1,68 @@
-/* Body background to distinguish the rest of the content */
-body {
-  background-color: #f8f9fa;
+/* Navbar general styling to match the grey mockup */
+#header-nav {
+  background-color: #a9a9a9; 
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
 }
 
-/* Navbar adjustments */
+/* Brand text */
 .navbar-brand {
-  font-size: 1.7em;
+  color: #000 !important; 
+  font-size: 1.8em;
   font-weight: bold;
 }
 
-/* Mobile Dropdown styling */
+/* Mobile toggle button */
+.navbar-default .navbar-toggle {
+  border-color: #222;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #222;
+}
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+  background-color: #888;
+}
+
+/* Dropdown menu styling for mobile */
 #collapsable-nav {
-  /* Gives the dropdown a distinct background color */
-  background-color: #e3e3e3; 
+  background-color: #fff; /* White background for the dropdown */
 }
-
-#collapsable-nav ul li a {
-  color: #333;
+#collapsable-nav .nav li {
+  border-bottom: 2px solid #000; /* Distinct borders between items */
+}
+/* Optional: Adding a top border to separate the menu from the navbar */
+.navbar-collapse {
+  border-top: 2px solid #000 !important; 
+  box-shadow: none;
+}
+#collapsable-nav .nav li a {
+  color: #000;
+  font-size: 1.2em;
   padding: 15px;
-  border-bottom: 1px solid #ccc; /* Adds a nice separator between items */
+}
+#collapsable-nav .nav li a:hover {
+  background-color: #e3e3e3;
 }
 
-/* The really tall section */
+/* Main Heading */
+h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* The tall content section */
 .content-section {
-  background-color: #d1ecf1; /* Distinct background color */
-  height: 1000px; /* Forces the section to be tall and require scrolling */
-  border: 2px solid #17a2b8;
-  padding: 20px;
-  margin-top: 20px;
+  background-color: #999; /* Grey background to match mockup */
+  color: #000;
+  height: 1000px; /* Forces scrolling per requirements */
+  padding: 15px 30px;
+  margin-bottom: 50px;
+}
+
+.content-section h3 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
