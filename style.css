@@ -1,0 +1,31 @@
+/* Body background to distinguish the rest of the content */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Navbar adjustments */
+.navbar-brand {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+/* Mobile Dropdown styling */
+#collapsable-nav {
+  /* Gives the dropdown a distinct background color */
+  background-color: #e3e3e3; 
+}
+
+#collapsable-nav ul li a {
+  color: #333;
+  padding: 15px;
+  border-bottom: 1px solid #ccc; /* Adds a nice separator between items */
+}
+
+/* The really tall section */
+.content-section {
+  background-color: #d1ecf1; /* Distinct background color */
+  height: 1000px; /* Forces the section to be tall and require scrolling */
+  border: 2px solid #17a2b8;
+  padding: 20px;
+  margin-top: 20px;
+}
